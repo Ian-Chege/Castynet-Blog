@@ -143,5 +143,3 @@ See [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-j
 4. Remove `api` folder and components which call the server-side function such as the Newsletter component. Not technically required and the site will build successfully, but the APIs cannot be used as they are server-side functions.
 5. Run `yarn build`. The generated static content is in the `out` folder.
 6. Deploy the `out` folder to your hosting service of choice or run `npx serve out` to view the website locally.
-
-**Note**: Deploying on Github pages require addition modifications to the base path. Please refer to the FAQ for more information.

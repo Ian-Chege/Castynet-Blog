@@ -3,29 +3,23 @@ title: Back-end languages for a new web app
 date: '2023-02-20'
 tags: ['JavaScript', 'Python', 'Java', 'Ruby', 'PHP', 'Go', 'C#', 'backend', 'web development']
 draft: false
-summary: "Choosing the right backend language for your web app is crucial. This article provides an overview of several popular backend languages including JavaScript (with Node.js), Python, Java, Ruby, PHP, Go, and C#."
+summary: 'Choosing the right backend language for your web app is crucial. This article provides an overview of several popular backend languages including JavaScript (with Node.js), Python, Java, Ruby, PHP, Go, and C#.'
 authors: ['maxriunge']
 images: -'/static/images/twittercard.png'
+type: Blog
 ---
 
 # Back-end languages for a new web app
 
 Several programming languages are commonly used for backend web technologies, including:
 
-* JavaScript (with Node.js)
-    
-* Python
-    
-* Java
-    
-* Ruby
-    
-* PHP
-    
-* Go
-    
-* C#
-    
+- JavaScript (with Node.js)
+- Python
+- Java
+- Ruby
+- PHP
+- Go
+- C#
 
 ### Javascript
 

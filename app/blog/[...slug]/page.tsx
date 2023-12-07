@@ -1,18 +1,19 @@
-import 'css/prism.css'
-import 'katex/dist/katex.css'
+import { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+import { MDXLayoutRenderer } from 'pliny/mdx-components'
+import { sortPosts, coreContent, allCoreContent } from 'pliny/utils/contentlayer'
 
 import PageTitle from '@/components/PageTitle'
 import { components } from '@/components/MDXComponents'
-import { MDXLayoutRenderer } from 'pliny/mdx-components'
-import { sortPosts, coreContent, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs, allAuthors } from 'contentlayer/generated'
 import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
 import PostLayout from '@/layouts/PostLayout'
 import PostBanner from '@/layouts/PostBanner'
-import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
-import { notFound } from 'next/navigation'
+
+import 'css/prism.css'
+import 'katex/dist/katex.css'
 
 const defaultLayout = 'PostLayout'
 const layouts = {

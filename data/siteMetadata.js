@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://castynet-blog.vercel.app/',
   siteRepo: 'https://github.com/Ian-Chege/Castynet-Blog',
   siteLogo: '/static/images/castynetLogo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/twittercard.png',
   email: 'riunge@castynet.africa',
   github: 'https://github.com/castynet-studios',
   twitter: 'https://twitter.com/Twitter',

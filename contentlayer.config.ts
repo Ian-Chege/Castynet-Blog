@@ -19,8 +19,9 @@ import rehypeKatex from 'rehype-katex'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
 import rehypePresetMinify from 'rehype-preset-minify'
-import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
+
+import siteMetadata from './data/siteMetadata'
 
 const root = process.cwd()
 const isProduction = process.env.NODE_ENV === 'production'
@@ -77,7 +78,7 @@ function createSearchIndex(allBlogs) {
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: 'blog/**/*.mdx',
+  filePathPattern: 'blog/**/*{.mdx, .md}',
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
